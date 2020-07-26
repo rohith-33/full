@@ -1,5 +1,6 @@
 var express=require('express');
 var app=express();
+//app.use(express.static(__dirname+'/frontend'));
 app.get('/',function(req,res){
     //res.send('Hello world');
     res.sendFile(__dirname+'/frontend/html/index.html');
