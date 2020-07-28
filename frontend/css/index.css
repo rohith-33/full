@@ -32,3 +32,17 @@ color: green;
 .bz-blue{
     color: blue;
 }
+table th,td{
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    text-align: center;
+    /*border: 2px solid red;*/
+}
+th{
+    text-align: center;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
