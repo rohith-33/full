@@ -10,3 +10,22 @@ front{
     background-position : center;
     background-size : cover;
 }
+.redButton{
+background-color: red;
+font-size: 12;
+color: white;
+border: 10 px solid yellow;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blueButton{
+background-color: blue;
+font-size: 12;
+color: white;
+}
+#para1{
+color: green;
+}
+.bz-green{
+color: green;
+
+}
