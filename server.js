@@ -9,6 +9,10 @@ app.get('/Text-Tages',function(req,res){
     //res.send('Hello world');
     res.sendFile(__dirname+'/frontend/html/TextTages.html');
 })
+app.get('/clock',function(req,res){
+    //res.send('Hello world');
+    res.sendFile(__dirname+'/frontend/html/clock.html');
+})
 app.get('/',function(req,res){
     //res.send('Hello world');
     res.sendFile(__dirname+'/frontend/html/index.html');
