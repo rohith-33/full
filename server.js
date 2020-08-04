@@ -13,6 +13,18 @@ app.get('/clock',function(req,res){
     //res.send('Hello world');
     res.sendFile(__dirname+'/frontend/html/clock.html');
 })
+app.get('/resume',function(req,res){
+    //res.send('Hello world');
+    res.sendFile(__dirname+'/frontend/html/resume.html');
+})
+app.get('/snake',function(req,res){
+    //res.send('Hello world');
+    res.sendFile(__dirname+'/frontend/html/snake.html');
+})
+app.get('/tambola',function(req,res){
+    //res.send('Hello world');
+    res.sendFile(__dirname+'/frontend/html/tambola.html');
+})
 app.get('/',function(req,res){
     //res.send('Hello world');
     res.sendFile(__dirname+'/frontend/html/index.html');
